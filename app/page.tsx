@@ -10,7 +10,7 @@ export default function Page() {
           <p className="text-xl">BY: Keigo</p>
           <p className="text-xl">CHRISTMAS</p>
         </div>
-        <p className="text-xs mt-8">Keigo misses that Christmas Eve in 2018</p>
+        <p className="text-xs mt-8">KEIGO MISSES THAT CHRISTMAS OF 2018</p>
         <div className="font-bold mt-1">
           <div className="circle-text">打工人</div>
           <p className="inline-block">圣诞树</p>
