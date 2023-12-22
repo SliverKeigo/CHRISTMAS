@@ -34,7 +34,7 @@ export default function Page() {
         </div>
         <div className="flex justify-center">
           <div className="bg-[#95ec69] rounded-full w-4/6  px-8 py-5">
-            <p className="text-lg  text-black text-left font-bold font-heiti">🔇59"</p>
+            <p className="text-lg  text-black text-left font-bold font-heiti">🔊59&quot;</p>
           </div>
         </div>
       </div>
