@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --foreground-rgb: 0, 0, 0;
+    --background-start-rgb: 214, 219, 220;
+    --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --foreground-rgb: 255, 255, 255;
+        --background-start-rgb: 0, 0, 0;
+        --background-end-rgb: 0, 0, 0;
+    }
+}
+
+body {
+    color: rgb(var(--foreground-rgb));
+    /*background: linear-gradient(*/
+    height: 100vh;
+    /*    to bottom,*/
+    /*    transparent,*/
+    /*    rgb(var(--background-end-rgb))*/
+    /*  )*/
+    /*  rgb(var(--background-start-rgb));*/
+}
+
+.circle-text {
+    font-family: 'Heiti SC', '黑体', sans-serif; /* 或者您喜欢的字体 */
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 100%;
+    padding: 3px;
+    display: inline-block; /* 使它与其他文本在同一行 */
+}
